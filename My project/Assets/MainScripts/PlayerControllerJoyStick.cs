@@ -10,8 +10,11 @@ public class PlayerControllerJoystick : MonoBehaviour
     public float MoveInput;
     Rigidbody2D rb;
     public Joystick joystick;
+
+    public PlayerInfo pos;
     private void Start()
     {
+        transform.position = pos.initialValue;
         rb = GetComponent<Rigidbody2D>();
     }
 

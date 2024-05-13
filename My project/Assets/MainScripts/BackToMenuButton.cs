@@ -10,8 +10,13 @@ public class BackToMenuButton : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(0);
     }
-
     public void QuitGame()
-    { Application.Quit();
+    { 
+        Application.Quit();
+    }
+
+    public void ClosePanel()
+    {
+        gameObject.transform.gameObject.SetActive(false);
     }
 }

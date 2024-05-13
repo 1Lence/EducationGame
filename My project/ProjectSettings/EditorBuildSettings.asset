@@ -9,8 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/Scenes/Level_1.unity
-    guid: e3139013f4d4192439b55ad729732ae5
+    path: Assets/Scenes/Level_2.unity
+    guid: 1b77cc70c42a0ba43914038fee00f954
+  - enabled: 1
+    path: Assets/Scenes/Quest_1.unity
+    guid: 636a5514c3e98fb4486dcae3d168e47c
+  - enabled: 1
+    path: Assets/Scenes/Quest_2.unity
+    guid: 79c86f9c365ec6a4cb4deeb4e64ce6c4
+  - enabled: 1
+    path: Assets/Scenes/Quest_3.unity
+    guid: b95beec1b82038043b492452153d2cb7
+  - enabled: 1
+    path: Assets/Scenes/Quest_4.unity
+    guid: 1e3bc0f65643dc743b2a2bf2fec923a3
+  - enabled: 1
+    path: Assets/Scenes/Quest_5.unity
+    guid: 57a459d32059ee4498f4d42f267aeabf
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3ed05f121fe237646bb3ea055a4fb08a, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: cecb42937c8832547968af9e4b4afc8b, type: 2}
