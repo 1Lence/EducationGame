@@ -1,9 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class PlayerInfo : ScriptableObject
+namespace MainScripts
 {
-    public Vector3 initialValue;
+    [CreateAssetMenu]
+    public class PlayerInfo : ScriptableObject
+    {
+        public Vector3 initialValue;
+    }
 }

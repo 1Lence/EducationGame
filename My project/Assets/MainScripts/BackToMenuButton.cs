@@ -1,22 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BackToMenuButton : MonoBehaviour
+namespace MainScripts
 {
-    // Start is called before the first frame update
-    public void BackToMenu()
+    public class BackToMenuButton : MonoBehaviour
     {
-        SceneManager.LoadSceneAsync(0);
-    }
-    public void QuitGame()
-    { 
-        Application.Quit();
-    }
+        // Start is called before the first frame update
+        public void BackToMenu()
+        {
+            SceneManager.LoadSceneAsync(0);
+        }
+        public void QuitGame()
+        { 
+            Application.Quit();
+        }
 
-    public void ClosePanel()
-    {
-        gameObject.transform.gameObject.SetActive(false);
+        public void ClosePanel()
+        {
+            gameObject.transform.gameObject.SetActive(false);
+        }
+        
     }
 }

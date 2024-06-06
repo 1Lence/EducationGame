@@ -1,16 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace MainScripts
+namespace MainScripts.Quest2Island
 {
     public class LeaveQuest : MonoBehaviour
     {
-        public Vector3 position;
-        public PlayerInfo playerStorage;
-
         public void Leave()
         {
-            playerStorage.initialValue = position;
             SceneManager.LoadScene(1);
         }
     }
